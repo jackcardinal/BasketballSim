@@ -15,6 +15,10 @@
 		4D36FBED2A12FE6D002E9869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D36FBEC2A12FE6D002E9869 /* Assets.xcassets */; };
 		4D36FBF12A12FE6D002E9869 /* GameWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4D36FBDF2A12FE6A002E9869 /* GameWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D36FBF72A13069C002E9869 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67D6392917E4110097D139 /* GameState.swift */; };
+		4D36FBF92A14581B002E9869 /* LiveActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36FBF82A14581B002E9869 /* LiveActivityView.swift */; };
+		4DC8F2802A18185F00E79B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED67D6252917E3520097D139 /* Assets.xcassets */; };
+		4DFCC5272A181AB30024CE12 /* Image+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67D6352917E3E40097D139 /* Image+Ext.swift */; };
+		4DFCC5282A181AB80024CE12 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67D6312917E39D0097D139 /* ButtonStyles.swift */; };
 		ED67D6222917E3510097D139 /* BasketballSimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67D6212917E3510097D139 /* BasketballSimApp.swift */; };
 		ED67D6262917E3520097D139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED67D6252917E3520097D139 /* Assets.xcassets */; };
 		ED67D6292917E3520097D139 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED67D6282917E3520097D139 /* Preview Assets.xcassets */; };
@@ -60,6 +64,7 @@
 		4D36FBEA2A12FE6A002E9869 /* GameWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWidget.swift; sourceTree = "<group>"; };
 		4D36FBEC2A12FE6D002E9869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D36FBEE2A12FE6D002E9869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D36FBF82A14581B002E9869 /* LiveActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityView.swift; sourceTree = "<group>"; };
 		ED67D61E2917E3510097D139 /* BasketballSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasketballSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED67D6212917E3510097D139 /* BasketballSimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballSimApp.swift; sourceTree = "<group>"; };
 		ED67D6252917E3520097D139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,6 +115,7 @@
 				4D36FBEA2A12FE6A002E9869 /* GameWidget.swift */,
 				4D36FBEC2A12FE6D002E9869 /* Assets.xcassets */,
 				4D36FBEE2A12FE6D002E9869 /* Info.plist */,
+				4D36FBF82A14581B002E9869 /* LiveActivityView.swift */,
 			);
 			path = GameWidget;
 			sourceTree = "<group>";
@@ -255,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC8F2802A18185F00E79B22 /* Assets.xcassets in Resources */,
 				4D36FBED2A12FE6D002E9869 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +286,9 @@
 				4D36FBF72A13069C002E9869 /* GameState.swift in Sources */,
 				4D36FBE92A12FE6A002E9869 /* GameLiveActivity.swift in Sources */,
 				4D36FBE72A12FE6A002E9869 /* GameWidgetBundle.swift in Sources */,
+				4DFCC5282A181AB80024CE12 /* ButtonStyles.swift in Sources */,
+				4D36FBF92A14581B002E9869 /* LiveActivityView.swift in Sources */,
+				4DFCC5272A181AB30024CE12 /* Image+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
